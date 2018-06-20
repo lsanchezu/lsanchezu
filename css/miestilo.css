@@ -1,0 +1,155 @@
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    background: #fff;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+/*Banner*/
+
+#banner {
+    background: url(../img/matara1.jpg);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Banner con imagen de fondo*/
+
+#banner-fondo {
+    background: url(../img/iglesia.jpg);
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*Banner lugares turisticos*/
+
+#banner-lugares {
+    background: url(../img/lugar.jpg);
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article {
+    padding: 20px;
+}
+
+
+/*----------Solo el texto dentro del slider*/
+
+.letter>.letter-slider>div {
+    color: #fff;
+    font: bold 20px Maiandra GD;
+}
+
+.letter>.letter-slider>p {
+    color: #fff;
+    font: bold 20px Maiandra GD;
+}
+
+.letter {
+    top: 300px;
+    left: 30%;
+    position: absolute;
+    width: 70%;
+    height: 100% auto;
+    text-align: justify;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.letter-slider {
+    width: 50%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    text-align: center;
+}
+
+.h3-fuente {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.et-black {
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+#cita {
+    background-color: rgb(15, 22, 24);
+    clear: both;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#cita:hover {
+    background-color: #444;
+}
+
+#logito {
+    margin-left: 30%;
+}
+
+footer {
+    background: #262626;
+    padding: 7em 0 0 0 !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    float: left;
+}
+
+#copyrigth {
+    background: #1a1a1a;
+    width: 100%;
+}
+
+#contenedor-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#icon-up {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}

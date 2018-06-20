@@ -1,0 +1,32 @@
+#columna1 {
+    border: solid;
+    width: 30%;
+    height: 450px;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+#columna2 {
+    border: solid;
+    width: 30%;
+    height: 450px;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+#columna3 {
+    border: solid;
+    width: 30%;
+    height: 450px;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+
+.imgRedonda {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
